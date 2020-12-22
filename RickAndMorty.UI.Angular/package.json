@@ -1,0 +1,9 @@
+{
+  "name": "rick-and-morty.ui.angular",
+  "version": "0.0.0",
+  "description": "RickAndMorty.UI.Angular",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

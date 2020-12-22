@@ -1,0 +1,9 @@
+{
+  "name": "rick-and-morty.ui.react",
+  "version": "0.0.0",
+  "description": "RickAndMorty.UI.React",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
