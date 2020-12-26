@@ -7,7 +7,8 @@ namespace RickAndMorty.API.NET5.Controllers.v1
     //ApiVersion attribute is required to report every ApiVersion that this controller supports
     //every action will be associated with every ApiVersion unless and explicit MapToApiVersion attribute is used on the action
     [ApiVersion("1.0")]
-    [ApiVersion("1.1")]
+    //To deprecate an entire version set the Deprecated property to true
+    [ApiVersion("1.1",Deprecated = true)]
     [ApiVersion("1.2")]
     [ApiVersion("1.3")]
     [Route("api/v{apiVersion:ApiVersion}/[controller]")]

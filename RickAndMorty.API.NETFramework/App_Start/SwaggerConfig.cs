@@ -61,8 +61,10 @@ namespace RickAndMorty.API.NETFramework
                     c.MultipleApiVersions(
                     (apiDesc, targetApiVersion) =>
                     {
-                        return apiDesc.GetApiVersion().ToString().Replace(".", "_").Equals(targetApiVersion);
-
+                        string apiVersion=apiDesc.GetApiVersion().ToString().Replace(".", "_");
+                        string targetVersion = targetApiVersion.ToString().Replace(".", "_");
+                        bool result=apiVersion.Equals(targetVersion);
+                        return result;
                     },
                     (vc) =>
                     {

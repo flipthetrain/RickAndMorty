@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Accessors\" />
+    <Folder Include="Engines\" />
+    <Folder Include="Infrastructure\Interfaces\" />
+    <Folder Include="Infrastructure\Models\" />
+    <Folder Include="Managers\" />
+  </ItemGroup>
+
+</Project>

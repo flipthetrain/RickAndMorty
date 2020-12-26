@@ -1,4 +1,7 @@
 ﻿using Microsoft.Web.Http;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Web.Http;
 
 namespace RickAndMorty.API.NetFramework.Controllers.v1
@@ -12,14 +15,14 @@ namespace RickAndMorty.API.NetFramework.Controllers.v1
     {
         [HttpPost()]
         [Route("")]
-        [MapToApiVersion("1.0")]
-        public string Create(model Model)
+        public string Create([FromBody] model Model)
         {
             return ("create");
         }
 
         [HttpGet]
         [Route("")]
+        [Obsolete]
         [MapToApiVersion("1.0")]
         public string Get()
         {
@@ -28,6 +31,7 @@ namespace RickAndMorty.API.NetFramework.Controllers.v1
 
         [HttpGet]
         [Route("")]
+        [Obsolete]
         [MapToApiVersion("1.1")]
         public string Get_11()
         {
@@ -52,7 +56,6 @@ namespace RickAndMorty.API.NetFramework.Controllers.v1
 
         [HttpGet]
         [Route("list")]
-        [MapToApiVersion("1.0")]
         public string List()
         {
             return ("list");
@@ -60,7 +63,6 @@ namespace RickAndMorty.API.NetFramework.Controllers.v1
 
         [HttpDelete()]
         [Route("")]
-        [MapToApiVersion("1.0")]
         public string Delete()
         {
             return ("delete");

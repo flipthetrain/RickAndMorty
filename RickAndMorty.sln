@@ -51,7 +51,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "!!Documentation", "!!Docume
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthHost", "AuthHost", "{CCFB3944-0E03-4207-990F-3CFD37974372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.AuthHost", "RickAndMorty.AuthHost\RickAndMorty.AuthHost.csproj", "{0EC7B152-A3CA-480A-AE9C-F95C592417F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.Auth.Host", "RickAndMorty.AuthHost\RickAndMorty.Auth.Host.csproj", "{0EC7B152-A3CA-480A-AE9C-F95C592417F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty.Auth.Application", "RickAndMorty.Auth.Application\RickAndMorty.Auth.Application.csproj", "{62508F52-76F1-46BB-8F80-4F9E39C3DC9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,10 @@ Global
 		{0EC7B152-A3CA-480A-AE9C-F95C592417F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EC7B152-A3CA-480A-AE9C-F95C592417F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EC7B152-A3CA-480A-AE9C-F95C592417F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62508F52-76F1-46BB-8F80-4F9E39C3DC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62508F52-76F1-46BB-8F80-4F9E39C3DC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62508F52-76F1-46BB-8F80-4F9E39C3DC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62508F52-76F1-46BB-8F80-4F9E39C3DC9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +121,7 @@ Global
 		{A0B22AC9-9064-43B7-8056-0BCF43D42F7F} = {71DC5BCB-3C55-411D-A7A3-DA4141E2B327}
 		{DEC9A02B-271A-4DFF-980F-0195179DC1D9} = {0C193F34-B79C-494E-B849-7D7B9D426439}
 		{0EC7B152-A3CA-480A-AE9C-F95C592417F3} = {CCFB3944-0E03-4207-990F-3CFD37974372}
+		{62508F52-76F1-46BB-8F80-4F9E39C3DC9D} = {CCFB3944-0E03-4207-990F-3CFD37974372}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB05B424-8198-4741-8720-2E9A0978083D}

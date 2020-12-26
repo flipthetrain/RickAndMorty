@@ -1,7 +1,6 @@
 ﻿using Microsoft.Web.Http;
 using Microsoft.Web.Http.Routing;
 using Microsoft.Web.Http.Versioning;
-using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Routing;
 
@@ -21,7 +20,7 @@ namespace RickAndMorty.API.NETFramework
                 //when an api version is not explicitly listed a default version is assumed
                 opts.AssumeDefaultVersionWhenUnspecified = true;
                 //this is the default api version
-                opts.DefaultApiVersion = new ApiVersion(1, 2);
+                opts.DefaultApiVersion = new ApiVersion(1, 0);
 
                 //defines where the api version will be present in the request
                 opts.ApiVersionReader = ApiVersionReader.Combine(
